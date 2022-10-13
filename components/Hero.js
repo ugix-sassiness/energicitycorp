@@ -1,10 +1,8 @@
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import {
-  ArrowPathIcon,
   Bars3Icon,
   BookmarkSquareIcon,
-  CalendarIcon,
   ChartBarIcon,
   CursorArrowRaysIcon,
   LifebuoyIcon,
@@ -70,11 +68,6 @@ const resources = [
     icon: BookmarkSquareIcon,
   },
  ]
-const recentPosts = [
-  { id: 1, name: 'Boost your conversion rate', href: '#' },
-  { id: 2, name: 'How to use search engine optimization to drive traffic to your site', href: '#' },
-  { id: 3, name: 'Improve your customer experience', href: '#' },
-]
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -168,10 +161,6 @@ export default function Example() {
                 )}
               </Popover>
 
-              
-
-
-              
               <Popover className="relative">
                 {({ open }) => (
                   <>
