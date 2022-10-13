@@ -1,11 +1,9 @@
 const navigation = {
   main: [
-    { name: 'About', href: '#' },
-    { name: 'Blog', href: '#' },
-    { name: 'Jobs', href: '#' },
-    { name: 'Press', href: '#' },
-    { name: 'Accessibility', href: '#' },
-    { name: 'Partners', href: '#' },
+    { name: 'Our Team', href: '#' },
+    { name: 'Career Opportunities', href: '#' },
+    { name: 'News', href: '#' },
+    { name: 'Contact Us', href: '#' },
   ],
   social: [
     {

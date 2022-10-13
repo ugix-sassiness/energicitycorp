@@ -1,5 +1,7 @@
 import Head from 'next/head'
+import Header from '@components/Header'
 import Hero from '@components/Hero'
+import Impact from '@components/Impact'
 import Footer from '@components/Footer'
 
 export default function Home() {
@@ -9,9 +11,10 @@ export default function Home() {
         <title>Energicity &#8211; Providing abundant, clean electricity to empower communities and enable households to thrive.</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <main>
+        <Header/>
+        <main className="lg:relative">
         <Hero/>
+        <Impact />
       </main>
 
       <Footer />
