@@ -1,28 +1,28 @@
-import { BoltIcon, EnvelopeIcon, GlobeAltIcon, ScaleIcon } from '@heroicons/react/24/outline'
+import { LightBulbIcon } from '@heroicons/react/24/outline'
 
 const features = [
     {
       name: 'Competitive rates',
       description: 'Consequuntur omnis dicta cumque, inventore atque ab dolores aspernatur tempora ab doloremque.',
-      icon: GlobeAltIcon,
+      icon: LightBulbIcon,
     },
     {
       name: 'No hidden fees',
       description:
         'Corporis quisquam nostrum nulla veniam recusandae temporibus aperiam officia incidunt at distinctio ratione.',
-      icon: ScaleIcon,
+      icon: LightBulbIcon,
     },
     {
       name: 'Instant transfers',
       description:
         'Omnis, illo delectus? Libero, possimus nulla nemo tenetur adipisci repellat dolore eligendi velit doloribus mollitia.',
-      icon: BoltIcon,
+      icon: LightBulbIcon,
     },
     {
       name: 'Reminder emails',
       description:
         'Veniam necessitatibus reiciendis fugit explicabo dolorem nihil et omnis assumenda odit? Quisquam unde accusantium.',
-      icon: EnvelopeIcon,
+      icon: LightBulbIcon,
     },
   ]
 
@@ -43,7 +43,7 @@ return (
             {features.map((feature) => (
               <div key={feature.name}>
                 <dt>
-                  <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-md bg-sky-700 text-white">
                     <feature.icon className="h-6 w-6" aria-hidden="true" />
                   </div>
                   <p className="mt-5 text-lg font-medium leading-6 text-gray-900">{feature.name}</p>
