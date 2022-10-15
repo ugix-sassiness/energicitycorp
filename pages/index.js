@@ -3,6 +3,7 @@ import Header from '@components/Header'
 import Hero from '@components/Hero'
 import Impact from '@components/Impact'
 import Footer from '@components/Footer'
+import Jobs from '@components/Jobs'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <main className="lg:relative">
         <Hero/>
         <Impact />
+        <Jobs />
       </main>
 
       <Footer />
